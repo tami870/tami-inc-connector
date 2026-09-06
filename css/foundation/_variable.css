@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+:root {
+  /* Color */
+  --color-primary: #1a1a1a;
+  --color-accent: #0b5394;
+  --color-bg: #ffffff;
+  --color-text: #333333;
+  --color-muted: #666666;
+  --color-border: #dddddd;
+
+  /* Font（外部フォントは読み込まずシステムフォントのみを使う） */
+  --font-base: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", sans-serif;
+  --font-size-base: 1rem;
+  --line-height-base: 1.8;
+
+  /* Space */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 40px;
+  --space-xl: 80px;
+
+  /* Layout */
+  --width-content: 720px;
+
+  /* Breakpoint（参照用） */
+  --bp-sp: 767px;
+  --bp-tab: 1024px;
+}

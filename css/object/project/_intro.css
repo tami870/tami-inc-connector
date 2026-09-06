@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.p-intro__title {
+  font-size: 1.75rem;
+}
+
+.p-intro__lead {
+  margin-top: var(--space-md);
+}
+
+.p-intro__section {
+  margin-top: var(--space-lg);
+}
+
+.p-intro__heading {
+  font-size: 1.25rem;
+  padding-block-end: var(--space-xs);
+  border-block-end: 1px solid var(--color-border);
+}
+
+.p-intro__text {
+  margin-top: var(--space-sm);
+}
+
+.p-intro__list {
+  margin-top: var(--space-xs);
+  /* マーカーの表示位置を確保するための字下げ */
+  padding-left: 1.5em;
+  list-style: disc;
+}
+
+.p-intro__item {
+  margin-top: var(--space-xs);
+}

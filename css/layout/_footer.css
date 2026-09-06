@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.l-footer {
+  margin-top: var(--space-xl);
+  border-block-start: 1px solid var(--color-border);
+}
+
+.l-footer__inner {
+  max-width: var(--width-content);
+  /* 中央寄せ。間隔ではなくセンタリングのため margin 方向統一の対象外 */
+  margin-inline: auto;
+  padding-block: var(--space-md);
+  padding-inline: var(--space-sm);
+}
+
+.l-footer__copyright {
+  color: var(--color-muted);
+  font-size: 0.875rem;
+}

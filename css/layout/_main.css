@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.l-main {
+  /* 本文が短いページでもフッターを最下部に置くため余白を吸収させる */
+  flex-grow: 1;
+}
+
+.l-main__inner {
+  max-width: var(--width-content);
+  /* 中央寄せ。間隔ではなくセンタリングのため margin 方向統一の対象外 */
+  margin-inline: auto;
+  padding-block: var(--space-lg);
+  padding-inline: var(--space-sm);
+}
